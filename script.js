@@ -1,16 +1,16 @@
+let displayValue = null
 let firstVariable = null
 let secondVariable = null
 let operator = ""
+let displayOutput = document.getElementById('display')
 const buttons = document.querySelectorAll('button')
-const buttonPressed = e => {console.log(e.target.id)}
+const buttonPressed = e => {e.target.id}
 
 //gets button id and assigns it to variable
 for (let button of buttons) {
     button.addEventListener("click", buttonPressed);
-    if (firstVariable == null) {
-        firstVariable = buttonPressed
-        console.log(firstVariable)
-    }
+    displayValue = buttonPressed
+    console.log(displayValue)
   }
 
 function add(firstVariable,secondVariable) {
