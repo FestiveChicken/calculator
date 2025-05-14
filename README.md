@@ -4,7 +4,6 @@ A browser-based calculator built with vanilla JavaScript, HTML, and CSS. Practic
 
 ## 🔗 Live Demo  
 [Try it out here](https://festivechicken.github.io/calculator/)  
-*(Remove or update this URL if not deployed.)*
 
 ## 🛠️ Features
 - **Basic Operations**: addition, subtraction, multiplication, division  
